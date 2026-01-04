@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:rgb(224, 118, 118);
+}
+#head{
+    border:2px solid rgb(255, 255, 255);
+    outline:2px double black;
+    outline-offset:10px;
+    margin:20px;
+    padding:20px 10px;
+
+}
+#icon{
+    background-color:rgb(255, 253, 250);
+    display:inline-block;
+    width:15%;
+    padding:30px;
+    border-radius:50%  
+}
+
+#title
+{
+    display:inline-block;
+    width:80%;
+    text-align:center;
+    font-size:40px;
+}
+
+.list{
+    display:inline-block;
+    margin:40px 10px;
+}
+
