@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.firsthead{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 40px;
+    border: 10px;
+    border-color:rgb(16, 35, 88);
+    border-style:solid;
+}
+
+.header{
+    border-bottom:10px;
+    border-bottom-color:aliceblue;
+    border-style:solid;
+}
+
+.secondhead{
+    display:inline-block;
+    width: 73%;
+    background-color: black;
+    color: white;
+    padding: 193px 1px 20px 26px;
+    border: 10px;
+    border-color:rgb(16, 35, 88);
+    border-style:solid;
+
+}
+li{
+    display: inline-block;
+    padding-top:20px;
+    font-size:24px;
+    font-style: italic;
+    font-family: Georgia;
+    color:white;
+
+   
+}
+li:hover{
+    color:yellow;
+}
+.search{
+   padding:10px;
+   text-align:center;
+   background-color: rgb(156, 255, 153);
+}
+
+#int1{
+    width:80%;
+    padding:20px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#one{
+    display:inline;
+    padding-left:20px;
+}
+
+.filter{
+    background-color: rgb(156, 255, 153);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px;
+    border-bottom-color: rgb(45, 31, 95);
+    border-bottom-style:solid;
+}
+#two{
+    display:inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.int2{
+    padding: 10px;
+    display: inline;
+
+}
+
+.centerbody{
+    text-align: center;
+    background-color: rgb(156, 255, 153);
+    border-bottom: 5px; 
+    border-bottom-color: rgb(16, 35, 88);
+    border-bottom-style: solid;
+    padding:80px 10px;
+}
+
+.img{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(16, 35, 88);
+    text-align: center;
+    border: 5px;
+    border-color: rgb(34, 243, 62);
+    border-bottom-color:black;
+    border-style: solid;
+    margin:10px;
+    padding: 40px;
+    padding-bottom: 100px;
+    vertical-align: middle;
+    
+}
+
+.about
+{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(16, 35, 88, 0.938);
+    border:5px solid white;
+    margin-top:20px;
+}
+
+#first{
+    font-size: 48px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content:center;
+    position:relative;
+    bottom:40px;
+}
+
+.about1 {
+text-align:center;
+color:aliceblue;
+font-size: larger;
+padding-top:100px;
+
+}
+
+.about .about1 p{
+    font-size:30px;
+    transition: font-size 0.5s;
+}
+
+.about .about1 p:hover{
+    color:yellow;
+    font-size:35px;
+    
+}
